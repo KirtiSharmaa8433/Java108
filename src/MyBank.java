@@ -2,6 +2,11 @@ public class MyBank
 {
     public static void main(String[] args) {
         Bank b=new Bank();
-        b.withdrawl(1200);
+       try{
+           b.withdrawl(12000);
+       }
+       catch(InsufficientBalanceException e){
+           System.out.println(e.getMessage());
+       }
     }
 }
