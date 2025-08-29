@@ -13,12 +13,8 @@ public class MyException {
         catch(ArithmeticException e){
             System.out.println(e.getMessage());
         }
-        catch(InputMismatchException e){
-            System.out.println(e);
-        }
-        finally{
-            System.out.println("Result is "+z);
-        }
-    }
+        finally {
+            System.out.println("Result is " + z);
+        }    }
 
 }
