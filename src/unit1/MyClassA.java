@@ -1,3 +1,5 @@
+package unit1;
+
 public class MyClassA {
     public static void main(String[] args) {
            B obj=new B();
