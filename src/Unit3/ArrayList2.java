@@ -1,4 +1,6 @@
 package Unit3;
+import org.w3c.dom.html.HTMLAppletElement;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Iterator;
@@ -20,6 +22,9 @@ public class ArrayList2 {
         while(it.hasNext()){
             System.out.println(it.next());
         }
-
+        products.add(1,"Apple");
+        products.addLast("Banana");
+        products.addFirst("Orange");
+        System.out.println(products.get(1));
     }
 }
